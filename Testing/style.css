@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background-color: rgb(226, 222, 222);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 7%;
+  background-color: rgb(46, 46, 46);
+  justify-content: center;
+}
+.text {
+  margin-right: 15px;
+  margin-top: 10px;
+  font-size: 30px;
+  color: lightgray;
+  text-decoration: none;
+}
+.name-of-book {
+  display: flex;
+  justify-content: center;
+}
+.Top-text {
+  font-size: 40px;
+  margin-top: 40px;
+  word-spacing: 25px;
+}
+.mainwindow {
+  display: flex;
+  flex-direction: row;
+}
+.textbox {
+  margin-left: 300px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.book {
+  margin-left: 200px;
+  margin-top: 80px;
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.mtext {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.button {
+  margin-top: 50px;
+  margin-left: 180px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background: orange;
+  width: 15em;
+  color: snow;
+}
+.lowerboard {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 16%;
+  background-color: rgb(1, 24, 24);
+}
+.lbtext {
+  margin-top: 40px;
+  color: snow;
+  font-size: 25;
+}
+
+.lbbutton {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  background: orange;
+  width: 22em;
+  color: snow;
+}
+.lbbutton:hover {
+  color: black;
+}
+.button:hover {
+  color: black;
+}
+.text:hover {
+  color: cyan;
+}
